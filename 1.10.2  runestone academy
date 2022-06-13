@@ -1,0 +1,8 @@
+# the answer is: ['c', 'a', 't', 'd', 'o', 'g', 'r', 'b', 'i']
+wordlist = ['cat','dog','rabbit']
+final = []
+for animals in wordlist:
+    for letters in animals:
+        final.append(letters)
+final = set(final)        
+print(final)
