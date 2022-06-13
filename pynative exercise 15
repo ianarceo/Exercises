@@ -1,0 +1,16 @@
+# Write a function called exponent(base, exp) that returns an int value of base raises to the power of exp.
+# Expected output:
+# base = 2
+# exponent = 5
+# 2 raises to the power of 5: 32 i.e. (2 *2 * 2 *2 *2 = 32)
+
+def exponent(base, exp):
+    result = base ** exp
+    print(f'{base} raises to the power of {exp}: {result} i.e. ({base}', end="")
+    for i in range(1, exp):
+        print(f' * {base}', end="")
+    else:
+        print(f' = {result})')
+
+
+exponent(5, 2)
