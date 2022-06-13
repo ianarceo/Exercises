@@ -1,4 +1,8 @@
+# Self Check
+# Test your understanding of what we have covered so far by trying the following exercise.
+# Modify the code from Activecode 8 so that the final list only contains a single copy of each letter.
 # the answer is: ['c', 'a', 't', 'd', 'o', 'g', 'r', 'b', 'i']
+
 wordlist = ['cat','dog','rabbit']
 final = []
 for animals in wordlist:
