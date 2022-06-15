@@ -1,0 +1,12 @@
+income = float(input("Enter the annual income: "))
+
+tax_range = 85528
+income_tax1 = (income * 0.18) - 556.2
+income_tax2 = (income - tax_range) * 0.32 + 14839.2
+
+if income_tax1 <= 0: your_tax = 0.00
+elif income < tax_range: your_tax = income_tax1
+elif income > tax_range: your_tax = income_tax2
+
+tax = round(your_tax, 0)
+print("The tax is:", tax, "thalers")
